@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h3><b>Name : </b><em>Gajanan Nikam</em></h3>
+    <h3><b>Email : </b><em>gajanan.nikam9595@gmail.com</em></h3>
+    <h3><b>Address : </b><em>Pune, Maharashtra, India</em></h3>
+<fieldset>
+  <legend>Please Complete Below Details</legend>
+    <form action="mailto:gajanan@marketjoy.com" method="post" cellspacing="30" enctype="text/plain">
+
+      <span class="Name">
+      <label for="">Name :</label>
+      <input type="text" name="" value="Name" cellspacing="20"><br>
+      <span class="validity"></span>
+      </span>
+      <label for="email"> Email ID :</label>
+      <input type="email" id="email"pattern="+@globex\.com" size="30" aria-label="Email code" required ><br>
+
+      <input type="file" name="Upload Aadhar" value="Email">
+
+
+        <div class="Marital_Status">
+          <input type="radio" name="status" value="Married" >
+          <label for="Married">Married</label>
+        </div>
+
+        <div class="Marital_Status">
+          <input type="radio" name="status" value="UnMarried" >
+          <label for="UnMarried">UnMarried</label>
+        </div>
+        <div class="Marital_Status">
+          <input type="radio" name="status" value="Single" checked  >
+          <label for="Single">Single</label>
+
+        </div>
+
+
+      <label for="">Number :</label>
+      <input type="tel" id="phone" name="phone" value="Number"><br>
+      <label for="phone">Enter your phone number:</label>
+
+      <input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required><br>
+
+<small>Format: 123-456-7890</small>
+
+      <label for="email">Passowrd :</label>
+      <input type="password" name="" ><br>
+
+      <input type="date" id="start" name="trip-start" value="2018-07-22" min="2022-01-01" max="2025-12-31"><br>
+
+      <label for="">Your Comments :</label><br>
+      <textarea name="name" rows="8" cols="80"></textarea><br>
+      <input type="submit" name="" ><br>
+
+</fieldset>
+
+    </form>
+  </body>
+</html>
